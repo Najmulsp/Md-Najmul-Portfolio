@@ -2,7 +2,7 @@
 
 const Projects = () => {
     return (
-        <div>
+        <div className="" id="projects">
             <div className="p-5 mx-auto text-white sm:p-10 md:p-16 dark:bg-gray-900 dark:text-gray-800">
                 <h1>One of my best Projects</h1>
 	<div className="flex flex-col max-w-3xl mx-auto overflow-hidden rounded">
