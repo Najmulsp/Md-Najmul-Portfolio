@@ -1,13 +1,15 @@
 import { TypeAnimation } from "react-type-animation";
 import profileImg from "../assets/photo_222-transformed133411.png";
 import { IoMdDownload } from "react-icons/io";
+import linkedin from '../assets/linked in log22 .png';
+import github from '../assets/Github-desktop-logo-symbol.svg.png';
 // import {motion} from 'framer-motion'
 import resume from '../assets/Front End Developer resume.pdf'
 
 const Banner = () => {
   return (
-    <div>
-      <section className="dark:bg-gray-800 dark:text-gray-800">
+    <div className="bg-red-300">
+      <section className="bg-gray-800 dark:text-gray-800">
         <div className="container flex flex-col-reverse gap-10 justify-center p-6 mx-auto sm:py-12  lg:flex-row lg:justify-between">
           <div className="flex  flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
             <h1 className="lg:ml-36 text-white w-full text-3xl font-bold leading-none sm:text-4xl">
@@ -28,16 +30,14 @@ const Banner = () => {
                 repeat={Infinity}
               />
             </p>
-            <p className="mt-6 lg:ml-36 mb-8 text-lg sm:mb-12 text-white">
+            <p className="mt-6 lg:ml-36 text-lg mb-4 text-white">
               with experience in responsive and user friendly Website
               development.
             </p>
-            {/* <div className="">
-              <button className="btn text-black bg-primary-color ">
-                Download Resume
-              </button>
-            </div> */}
-                {/* download button */}
+              <div className="flex gap-10 items-center mx-auto pb-4 lg:ml-36">
+                <a href="www.linkedin.com/in/mdnajmulsarker"><img src={linkedin} alt="" className="w-10 h-10 rounded-xl border-2 border-white" /></a>
+                <a href="https://github.com/Najmulsp"><img src={github} alt="" className="w-12 h-12" /></a>
+              </div>
                 <div className="relative mx-auto inline-flex group my-3">
                   <div className="absolute w-[195px] transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
                   </div>

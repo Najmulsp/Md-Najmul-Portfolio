@@ -13,11 +13,11 @@ const Skills = () => {
     return (
         <div>
             <section className="dark:bg-gray-900 dark:text-gray-800">
-        <h1 className='text-4xl text-center primary-color'>My Skills</h1>
+        <h1 className='text-4xl text-center primary-color pt-6'>My Skills</h1>
 	<div className="container flex flex-col  p-6 mx-auto  lg:flex-row lg:justify-between">
 			
-		<div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 border ml-16">
-            <div>
+		<div className="flex items-center justify-center p-6  mt-8 lg:mt-0  border border-[#a5079d] lg:ml-16  rounded-lg">
+            <div className=''>
             <h2 className='text-2xl text-center text-white py-4'>Front-End Development</h2>
             <div className='grid grid-cols-3 gap-4'>
                 <img src={HTML} alt="" className='w-32 h-32' />
@@ -29,7 +29,7 @@ const Skills = () => {
             </div>
             </div>
 		</div>
-		<div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left border mr-16">
+		<div className="flex flex-col justify-center px-6 py-8 text-center  lg:text-left border border-[#a5079d] lg:mr-16 mt-8 lg:mt-0  rounded-lg">
 			<div>
                 <h2 className='text-2xl text-center text-white py-4'>Back-End Development</h2>
             <div className='grid grid-cols-3 gap-4'>

@@ -1,6 +1,6 @@
 const ContactMe = () => {
   return (
-    <div className="flex justify-center" id="contact">
+    <div className="flex justify-center dark:bg-slate-900 py-6 max-w-screen-xl" id="contact">
       <div className="max-w-[1200px] mx-auto">
         <div>
           <div className="grid grid-cols-1 md:grid-cols-2">
