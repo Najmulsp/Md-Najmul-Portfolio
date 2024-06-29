@@ -2,7 +2,11 @@ const ContactMe = () => {
   return (
     <div className="flex justify-center dark:bg-slate-900 py-6 max-w-screen-xl" id="contact">
       <div className="max-w-[1200px] mx-auto">
-        <div>
+        <div
+        data-aos="zoom-in-right"       
+        data-aos-delay="50"
+        data-aos-duration="1500"
+        >
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="p-6 mr-2 bg-gray-800 rounded-xl flex flex-col justify-around">
               <h1 className="text-4xl sm:text-5xl text-white">
@@ -27,6 +31,9 @@ const ContactMe = () => {
               </div>
             </div>
             <form
+            data-aos="zoom-in-left"       
+            data-aos-delay="100"
+            data-aos-duration="1600"
               action="https://getform.io/f/warkkozb"
               method="post"
               className="p-6 flex flex-col justify-center max-w-[700px]"

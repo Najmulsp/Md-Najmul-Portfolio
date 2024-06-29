@@ -1,21 +1,21 @@
-import { useEffect } from "react";
-import { useState } from "react";
+// import { useEffect } from "react";
+// import { useState } from "react";
 
 const Navbar = () => {
 
-    const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
-    useEffect(() => {
-      localStorage.setItem("theme", theme);
-      const localTheme = localStorage.getItem("theme");
-      document.querySelector("html").setAttribute("data-theme", localTheme);
-    }, [theme]);
-    const handleTheme = (e) => {
-      if (e.target.checked) {
-        setTheme("synthwave");
-      } else {
-        setTheme("light");
-      }
-    };
+    // const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
+    // useEffect(() => {
+    //   localStorage.setItem("theme", theme);
+    //   const localTheme = localStorage.getItem("theme");
+    //   document.querySelector("html").setAttribute("data-theme", localTheme);
+    // }, [theme]);
+    // const handleTheme = (e) => {
+    //   if (e.target.checked) {
+    //     setTheme("synthwave");
+    //   } else {
+    //     setTheme("light");
+    //   }
+    // };
 
 
 
@@ -44,40 +44,32 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
-              <li>
-              <a href="#about">About</a>
-            </li>
+              
             <li>
               <a href="#skills">Skills</a>
             </li>
             <li>
               <a href="#projects">Projects</a>
             </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
+            
             </ul>
           </div>
           <a className="btn btn-ghost text-xl primary-color">MD NAJMUL</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-          <li>
-              <a href="#about">About</a>
-            </li>
+          
             <li>
               <a href="#skills">Skills</a>
             </li>
             <li>
               <a href="#projects">Projects</a>
             </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
+            
           </ul>
         </div>
         <div className="navbar-end gap-6">
-        <label className="cursor-pointer grid place-items-center">
+        {/* <label className="cursor-pointer grid place-items-center">
             <input
               onChange={handleTheme}
               type="checkbox"
@@ -114,8 +106,8 @@ const Navbar = () => {
             >
               <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
             </svg>
-          </label>
-          <a className="btn bg-[#dd32f3] text-black">Hire Me</a>
+          </label> */}
+          <a href="#contact" className="btn bg-primary-color text-black">Contact Me</a>
         </div>
       </div>
     </div>
