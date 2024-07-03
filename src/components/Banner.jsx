@@ -4,7 +4,7 @@ import { IoMdDownload } from "react-icons/io";
 import linkedin from "../assets/linked in log22 .png";
 import github from "../assets/Github-desktop-logo-symbol.svg.png";
 // import {motion} from 'framer-motion'
-import resume from "../assets/Front End Developer resume.pdf";
+import resume from "../assets/Front-End Developer.pdf";
 
 const Banner = () => {
   return (
@@ -44,10 +44,9 @@ const Banner = () => {
               data-aos="fade-right"
               data-aos-delay="400"
               data-aos-duration="2200"
-              className="mt-6 lg:ml-36 text-lg mb-4 text-white"
+              className="mt-6 lg:ml-36 text-lg mb-4 text-white mx-auto w-4/5"
             >
-              with experience in responsive and user friendly Website
-              development.
+              Skilled in creating dynamic, responsive and user-friendly web applications.
             </p>
             <div className="flex gap-10 items-center mx-auto pb-4 lg:ml-36">
               <a

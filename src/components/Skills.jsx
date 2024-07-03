@@ -13,7 +13,7 @@ const Skills = () => {
     return (
         <div>
             <section className="dark:bg-gray-900 dark:text-gray-800">
-        <h1 className='text-4xl text-center primary-color pt-6'>My Skills</h1>
+        <h1 className='text-4xl text-center primary-color pt-6'><span className='text-white'>My</span> Skills</h1>
 	<div className="container flex flex-col  p-6 mx-auto  lg:flex-row lg:justify-between">
 			
 		<div

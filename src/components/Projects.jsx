@@ -10,7 +10,7 @@ const Projects = () => {
         <div className="mx-auto px-4 md:px-8">
           <div className="mb-4 flex items-center justify-between gap-8">
             <div className="flex flex-col gap-4 text-center w-full">
-              <h2 className="text-2xl lg:text-3xl text-white">
+              <h2 className="text-4xl text-white">
                 My <span>Projects</span>
               </h2>
               <p className="text-gray-500 pb-4">These are from my projects</p>
