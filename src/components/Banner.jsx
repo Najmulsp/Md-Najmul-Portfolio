@@ -3,7 +3,6 @@ import profileImg from "../assets/photo_222-transformed133411.png";
 import { IoMdDownload } from "react-icons/io";
 import linkedin from "../assets/linked in log22 .png";
 import github from "../assets/Github-desktop-logo-symbol.svg.png";
-// import {motion} from 'framer-motion'
 import resume from "../assets/Front-End Developer.pdf";
 
 const Banner = () => {

@@ -1,6 +1,9 @@
+
+
 const ContactMe = () => {
   return (
     <div className="flex justify-center dark:bg-slate-900 py-6 max-w-screen-xl" id="contact">
+      
       <div className="max-w-[1200px] mx-auto">
         <div
         data-aos="zoom-in-right"       

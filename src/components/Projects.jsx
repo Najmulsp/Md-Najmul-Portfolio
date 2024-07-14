@@ -6,6 +6,7 @@ import nestPlaza from '../assets/nest plaza.png';
 const Projects = () => {
   return (
     <div className="dark:bg-gray-800" id="projects">
+		
       <div className="py-8 max-w-screen-lg mx-auto">
         <div className="mx-auto px-4 md:px-8">
           <div className="mb-4 flex items-center justify-between gap-8">

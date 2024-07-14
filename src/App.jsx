@@ -1,13 +1,11 @@
 
 import './App.css';
-// import About from './components/About'
 import Banner from './components/Banner';
 import ContactMe from './components/ContactMe';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
-
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 AOS.init();
